@@ -85,20 +85,20 @@ def if_element():
     wait_element_appearance(driver)
     v_side_bars = driver.find_elements(By.CLASS_NAME, "v-btn__content")
     for v_side_bar in v_side_bars:
-            if v_side_bar.text == "日報・引継ぎ":
-                v_side_bar.click()
-                time.sleep(5)
-                break
-    
+        if v_side_bar.text == "日報・引継ぎ":
+            v_side_bar.click()
+            time.sleep(5)
+            break
+
     for cnt in range(1,5):
         wait_element_appearance(driver)
         v_side_bars = driver.find_elements(By.CLASS_NAME, "v-btn__content")
         for v_side_bar in v_side_bars:
-                if v_side_bar.text == "前の7日間":
-                    extract_date_locate(driver)
-                    v_side_bar.click()
-                    print(f"{cnt} th ")
-                    time.sleep(5)
+            if v_side_bar.text == "前の7日間":
+                extract_date_locate(driver)
+                v_side_bar.click()
+                print(f"{cnt} th ")
+                time.sleep(5)
 
     print(result_data)
 if __name__ == '__main__':

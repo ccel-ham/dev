@@ -1,5 +1,3 @@
-#https://tokensniffer.com/
-
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -7,8 +5,13 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 import re
 import json
+from drive import DriveManager
 
 result_data = {}
+
+class FportalLogin():
+    def __init__(self) -> None:
+        pass
 
 def wait_element_appearance(driver):
     TIME_OUT = 20
@@ -20,7 +23,7 @@ def save_text_file():
     file_name = "result_data.txt"
     with open(file_name, 'w', encoding='utf-8') as file:
         json.dump(result_data, file, ensure_ascii=False, indent=4)
-
+    return file_name
 
 
 def extract_locate(text):
@@ -85,22 +88,25 @@ def if_element():
     wait_element_appearance(driver)
     v_side_bars = driver.find_elements(By.CLASS_NAME, "v-btn__content")
     for v_side_bar in v_side_bars:
-        if v_side_bar.text == "日報・引継ぎ":
-            v_side_bar.click()
-            time.sleep(5)
-            break
-
+            if v_side_bar.text == "日報・引継ぎ":
+                v_side_bar.click()
+                time.sleep(5)
+                break
+    
     for cnt in range(1,5):
         wait_element_appearance(driver)
         v_side_bars = driver.find_elements(By.CLASS_NAME, "v-btn__content")
         for v_side_bar in v_side_bars:
-            if v_side_bar.text == "前の7日間":
-                extract_date_locate(driver)
-                v_side_bar.click()
-                print(f"{cnt} th ")
-                time.sleep(5)
+                if v_side_bar.text == "前の7日間":
+                    extract_date_locate(driver)
+                    v_side_bar.click()
+                    print(f"{cnt} th ")
+                    time.sleep(5)
 
     print(result_data)
 if __name__ == '__main__':
     if_element()
-    save_text_file()
+    path = save_text_file()
+    drive = DriveManager()
+    drive.auth()
+    drive.upload_file(path)

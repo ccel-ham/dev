@@ -10,16 +10,22 @@ class DriveManager:
     def __init__(self) -> None:
         self.UPLOAD_FOLDER_ID = "13F4XqYgR9GGbH8mBAU05nzyVnze9WhB2"
         self.working_directry = Path.cwd()
-        self.credentials_path = self.working_directry.joinpath("credentials.json")
-        print(self.credentials_path)
+        self.credentials_path = self.get_credential_path()
         self.drive = None
+    
+
+    def get_credential_path(self):
+        current_directory = Path(__file__).parent
+        parent_directory = current_directory.parent
+        credentials_path = parent_directory.joinpath("credentials.json")
+        return credentials_path
     
     def auth(self):
         gauth = GoogleAuth()
         scope = ["https://www.googleapis.com/auth/drive"]
 
         gauth.credentials = ServiceAccountCredentials.from_json_keyfile_name(
-            self.credentials_path, scope
+            str(self.credentials_path), scope
         )
         self.drive = GoogleDrive(gauth)
         print("Google Drive Authentication Success")
@@ -48,8 +54,5 @@ class DriveManager:
         print(f'File uploaded: https://drive.google.com/file/d/{file["id"]}')
 
 
-local_file_path = "/workspaces/card_pdf/vba_cover.mp4"
- 
-drive = DriveManager()
-drive.auth()
-drive.upload_file(local_file_path)
+if __name__ == '__main__':
+    pass

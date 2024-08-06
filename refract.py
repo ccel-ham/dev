@@ -5,30 +5,39 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 import re
 import json
-from drive import DriveManager
+import random
 
+from GetChrome import MyChrome
 
 
 class FportalLogin():
-    def __init__(self) -> None:
+    def __init__(self):
+        self.login_url = "https://portal.infomart.co.jp/api/v0.1/auth/signin"
         self.result_data = {}
-        self.driver = None
-        pass
+        self.driver = MyChrome().setup_Chrome()
 
-    def wait_element_appearance(driver):
-        TIME_OUT = 20
-        WebDriverWait(driver, TIME_OUT).until(
+    def wait_element_appearance(self):
+        TIME_OUT = 60
+        WebDriverWait(self.driver, TIME_OUT).until(
             EC.presence_of_all_elements_located
         )
+    
+    def random_sleep(self):
+        time.sleep(self.generate_random_float())
 
-    def save_text_file():
+    def generate_random_float(self):
+        MIN = 3
+        MAX = 5
+        return round(random.uniform(MIN, MAX), 2)
+
+    def save_text_file(self):
         file_name = "result_data.txt"
         with open(file_name, 'w', encoding='utf-8') as file:
-            json.dump(result_data, file, ensure_ascii=False, indent=4)
+            json.dump(self.result_data, file, ensure_ascii=False, indent=4)
         return file_name
 
 
-    def extract_locate(text):
+    def extract_locate(seelf, text):
         pattern = r'【(.*?)】'
         match = re.search(pattern, text)
         if match:
@@ -36,7 +45,7 @@ class FportalLogin():
         else:
             return None
 
-    def extract_date(text):
+    def extract_date(self, text):
         pattern = r'\d{2}月\d{2}日（[日月火水木金土]）'
         match = re.search(pattern, text)
         if match:
@@ -44,71 +53,82 @@ class FportalLogin():
         else:
             return None
 
-    def extract_date_locate(driver):
-        worked_cards = driver.find_elements(By.CLASS_NAME, "card-head")
+    def extract_date_locate(self):
+        worked_cards = self.driver.find_elements(By.CLASS_NAME, "card-head")
         for card in worked_cards:
             text = card.text
-            date = extract_date(text)
-            locate = extract_locate(text)
+            date = self.extract_date(text)
+            locate = self.extract_locate(text)
             print(f"{date}  -- {locate}")
-            if date in result_data:
-                result_data[date].append(locate)
+            if date in self.result_data:
+                self.result_data[date].append(locate)
             else:
-                result_data[date] = [locate]
-            
-
-    def if_element():
-        password = "yell0000"
-        id = "hitomi.yell.mana.g@gmail.com"
-        options = webdriver.ChromeOptions()
-        #options.add_argument("--headless")
-        options.add_argument('--disable-dev-shm-usage')
-        options.add_argument("--no-sandbox")
-
-        driver = webdriver.Chrome(options=options)
-        driver.implicitly_wait(10)
-        driver.get("https://portal.infomart.co.jp/api/v0.1/auth/signin")
-
-        wait_element_appearance(driver)
-
-        id_input = driver.find_element(By.ID, 'input_email')
+                self.result_data[date] = [locate]
+        
+    
+    def login(self, id, password):
+        self.driver.get(self.login_url)
+        self.wait_element_appearance()
+        
+        id_input = self.driver.find_element(By.ID, 'input_email')
         id_input.send_keys(id)
-        time.sleep(1)
-        pass_input = driver.find_element(By.ID, 'input_password')
+        self.random_sleep()
+        
+        pass_input = self.driver.find_element(By.ID, 'input_password')
         pass_input.send_keys(password)
-        time.sleep(1)
-        enter_button = driver.find_elements(By.CLASS_NAME, "step-primary")
+        self.random_sleep()
+        
+        enter_button = self.driver.find_elements(By.CLASS_NAME, "step-primary")
         enter_button[0].click()
-        
-        wait_element_appearance(driver)
-        services = driver.find_elements(By.CLASS_NAME, "home-service-name")
-        for service in services:
-            if service.text == "V-Manage":
-                service.click()
-                break
-        
-        wait_element_appearance(driver)
-        v_side_bars = driver.find_elements(By.CLASS_NAME, "v-btn__content")
-        for v_side_bar in v_side_bars:
-                if v_side_bar.text == "日報・引継ぎ":
-                    v_side_bar.click()
-                    time.sleep(5)
-                    break
-        
-        for cnt in range(1,5):
-            wait_element_appearance(driver)
-            v_side_bars = driver.find_elements(By.CLASS_NAME, "v-btn__content")
-            for v_side_bar in v_side_bars:
-                    if v_side_bar.text == "前の7日間":
-                        extract_date_locate(driver)
-                        v_side_bar.click()
-                        print(f"{cnt} th ")
-                        time.sleep(5)
 
-        print(result_data)
+    def login_complete_check(self):
+        self.wait_element_appearance(self.driver)
+        LOGIN_TOPPAGE_TITLE = "F-Portal | ホーム"
+        if self.driver.title == LOGIN_TOPPAGE_TITLE:
+            print("Log-In Complete")
+            return True
+        else:
+            print("Log-In Failure")
+            return False        
+        
+    def find_element_by_classname_text(self, class_name, text):
+        self.wait_element_appearance(self.driver)
+        self.random_sleep()
+        elements = self.driver.find_elements(By.CLASS_NAME, class_name)
+        for element in elements:
+            if element.text == text:
+                return element
+        return None
+
+    def data_extract_process(self):
+        for cnt in range(1, 5):
+            self.wait_element_appearance(self.driver)
+            self.random_sleep()
+            element = self.find_element_by_classname_text(class_name="v-btn__content", text="前の7日間")
+            self.extract_date_locate(self.driver)
+            element.click()
+            print(f"{cnt} th ")
+            time.sleep(5)
+        print(self.result_data)
+
 if __name__ == '__main__':
-    if_element()
-    path = save_text_file()
-    drive = DriveManager()
-    drive.auth()
-    drive.upload_file(path)
+    #pass
+    password = "yell0000"
+    id = "hitomi.yell.mana.g@gmail.com"
+    portal = FportalLogin()
+    portal.login(id, password)
+    if portal.login_complete_check():
+        element = portal.find_element_by_classname_text(class_name="home-service-name", text="V-Manage")
+        element.click()
+        
+        element = portal.find_element_by_classname_text(class_name="home-service-name", text="日報・引継ぎ")
+        element.click()
+
+        portal.data_extract_process()
+        print("data extract is done ")
+        
+        
+
+
+
+

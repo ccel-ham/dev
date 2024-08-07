@@ -1,0 +1,4358 @@
+[
+    {
+        "logs": [
+            {
+                "id": 17678980,
+                "routine_task_id": "b3dcc106-704f-4edd-9316-4b0fa645fe1a",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-31T12:49:48",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "1c3737b6-3b5a-4df1-9c51-b7144dcf4dbd",
+            "task_name": "【天神町】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "b3dcc106-704f-4edd-9316-4b0fa645fe1a",
+            "routine_date": "2024-07-31",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "9babf03f-e5ea-4b4f-a5d7-e31e2b1cc510",
+            "id": 17678980,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-31 12:49:48",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 17680996,
+                "routine_task_id": "18371115-d728-4cdc-b4cf-1ea732bc1cd9",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-31T14:38:21",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "b59c8be1-2c10-4578-88c5-2b454e70a412",
+            "task_name": "【突抜】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "18371115-d728-4cdc-b4cf-1ea732bc1cd9",
+            "routine_date": "2024-07-31",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "3cbf9da4-3cd0-463e-9e0e-f77e0755cb8e",
+            "id": 17680996,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-31 14:38:21",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 17677895,
+                "routine_task_id": "a7623b71-a2e1-4502-a5c2-9d8d50ba2536",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-31T11:04:21",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "e22c8b99-2f62-4dfa-a4f2-55f7bdb04d7a",
+            "task_name": "【万寿寺】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "a7623b71-a2e1-4502-a5c2-9d8d50ba2536",
+            "routine_date": "2024-07-31",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "f12ab985-626f-4ed6-b88d-ae8a7c84fe7c",
+            "id": 17677895,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-31 11:04:21",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 17629373,
+                "routine_task_id": "202086e7-b0e2-4790-a6e5-c537efb5a4a8",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-30T10:17:35",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "1ddffbc2-dc33-428e-bc58-d0341cbe109d",
+            "task_name": "【梅小路】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "202086e7-b0e2-4790-a6e5-c537efb5a4a8",
+            "routine_date": "2024-07-30",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "c22da43b-41f8-484c-a111-827375e3023f",
+            "id": 17629373,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-30 10:17:35",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 17631085,
+                "routine_task_id": "376df20d-4295-4c75-8639-964cf60ce061",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-30T11:36:43",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "70cdc20c-c777-4c3e-a915-464f6ccf305f",
+            "task_name": "【藤ノ木中】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "376df20d-4295-4c75-8639-964cf60ce061",
+            "routine_date": "2024-07-30",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "0ce1f3a4-7b9f-40d7-bd30-f3b1bce36c61",
+            "id": 17631085,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-30 11:36:43",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 17631784,
+                "routine_task_id": "7285705b-e874-4d42-9fe1-6627cdb3f8cf",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-30T12:50:11",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "884bc80b-8c29-4a0f-8fd6-e23ac99a917e",
+            "task_name": "【万里小路】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "7285705b-e874-4d42-9fe1-6627cdb3f8cf",
+            "routine_date": "2024-07-30",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "10646819-d1e4-4a5a-af64-e6e4831b9a72",
+            "id": 17631784,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-30 12:50:11",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 17585815,
+                "routine_task_id": "f558491f-16bb-4b38-a1f6-a53731a86e36",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-29T13:20:39",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "1c3737b6-3b5a-4df1-9c51-b7144dcf4dbd",
+            "task_name": "【天神町】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "f558491f-16bb-4b38-a1f6-a53731a86e36",
+            "routine_date": "2024-07-29",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "9babf03f-e5ea-4b4f-a5d7-e31e2b1cc510",
+            "id": 17585815,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-29 13:20:39",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 17585184,
+                "routine_task_id": "b2dd3e40-149e-4859-a778-654f60d46e49",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-29T12:12:11",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "7fb6ab6a-f0eb-4340-ad39-b01091074298",
+            "task_name": "【藤ノ木西】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "b2dd3e40-149e-4859-a778-654f60d46e49",
+            "routine_date": "2024-07-29",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "a5d214a6-48d5-4f6a-b63d-a0f136e4dead",
+            "id": 17585184,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-29 12:12:11",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 17582837,
+                "routine_task_id": "f46eb301-771a-48a0-9390-4f53247d098c",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-29T10:13:06",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "a03e2618-d630-436e-b787-8ff04bf864af",
+            "task_name": "【針小路59】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "f46eb301-771a-48a0-9390-4f53247d098c",
+            "routine_date": "2024-07-29",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "73328703-796f-42f5-96b3-70ea595bbcf5",
+            "id": 17582837,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-29 10:13:06",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 17549760,
+                "routine_task_id": "3cde5724-58aa-41ab-8510-6af75827251b",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-28T16:39:31",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "460299cb-a075-4b1b-a146-99ad4053127e",
+            "task_name": "【東福寺鴨川】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "3cde5724-58aa-41ab-8510-6af75827251b",
+            "routine_date": "2024-07-28",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "d7abc59a-076f-4063-865d-861f4624199a",
+            "id": 17549760,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-28 16:39:31",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 17538878,
+                "routine_task_id": "250385ba-1e32-4754-9d62-31829a084384",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-28T11:15:49",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "70cdc20c-c777-4c3e-a915-464f6ccf305f",
+            "task_name": "【藤ノ木中】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "250385ba-1e32-4754-9d62-31829a084384",
+            "routine_date": "2024-07-28",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "0ce1f3a4-7b9f-40d7-bd30-f3b1bce36c61",
+            "id": 17538878,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-28 11:15:49",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 17546545,
+                "routine_task_id": "d2e34fa7-74a4-4062-b1cf-ce616252bdc3",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-28T14:14:45",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "884bc80b-8c29-4a0f-8fd6-e23ac99a917e",
+            "task_name": "【万里小路】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "d2e34fa7-74a4-4062-b1cf-ce616252bdc3",
+            "routine_date": "2024-07-28",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "10646819-d1e4-4a5a-af64-e6e4831b9a72",
+            "id": 17546545,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-28 14:14:45",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 17548333,
+                "routine_task_id": "034f2410-71e7-4697-bf44-36614831cc11",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-28T15:32:05",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "8e155120-7e04-4103-a8fa-5068ea38a048",
+            "task_name": "【伏見稲荷】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "034f2410-71e7-4697-bf44-36614831cc11",
+            "routine_date": "2024-07-28",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "559376a6-3ffb-4b8e-ad86-5c2b28e15c50",
+            "id": 17548333,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-28 15:32:05",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 17542654,
+                "routine_task_id": "f17d8e30-edf6-4a57-8204-cb48e3bfd703",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-28T12:02:21",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "b59c8be1-2c10-4578-88c5-2b454e70a412",
+            "task_name": "【突抜】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "f17d8e30-edf6-4a57-8204-cb48e3bfd703",
+            "routine_date": "2024-07-28",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "3cbf9da4-3cd0-463e-9e0e-f77e0755cb8e",
+            "id": 17542654,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-28 12:02:21",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 17545262,
+                "routine_task_id": "0cbb8611-62a3-42c5-909c-955014365c62",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-28T13:23:54",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "e22c8b99-2f62-4dfa-a4f2-55f7bdb04d7a",
+            "task_name": "【万寿寺】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "0cbb8611-62a3-42c5-909c-955014365c62",
+            "routine_date": "2024-07-28",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "f12ab985-626f-4ed6-b88d-ae8a7c84fe7c",
+            "id": 17545262,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-28 13:23:54",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 17498092,
+                "routine_task_id": "44412d1e-0046-4013-ab1d-64cef13fb059",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-27T14:00:47",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "1c3737b6-3b5a-4df1-9c51-b7144dcf4dbd",
+            "task_name": "【天神町】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "44412d1e-0046-4013-ab1d-64cef13fb059",
+            "routine_date": "2024-07-27",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "9babf03f-e5ea-4b4f-a5d7-e31e2b1cc510",
+            "id": 17498092,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-27 14:00:47",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 17488675,
+                "routine_task_id": "4d552d5d-e8ce-43ff-b9fb-9d4c471be5e8",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-27T10:37:09",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "1ddffbc2-dc33-428e-bc58-d0341cbe109d",
+            "task_name": "【梅小路】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "4d552d5d-e8ce-43ff-b9fb-9d4c471be5e8",
+            "routine_date": "2024-07-27",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "c22da43b-41f8-484c-a111-827375e3023f",
+            "id": 17488675,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-27 10:37:09",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 17496469,
+                "routine_task_id": "52c8f8aa-dfa4-4070-a189-2933f5fc7e5f",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-27T12:43:49",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "884bc80b-8c29-4a0f-8fd6-e23ac99a917e",
+            "task_name": "【万里小路】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "52c8f8aa-dfa4-4070-a189-2933f5fc7e5f",
+            "routine_date": "2024-07-27",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "10646819-d1e4-4a5a-af64-e6e4831b9a72",
+            "id": 17496469,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-27 12:43:49",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 17499704,
+                "routine_task_id": "d2e0f25c-3c0b-4f5c-832d-16fb0ebc4020",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-27T15:13:29",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "8e155120-7e04-4103-a8fa-5068ea38a048",
+            "task_name": "【伏見稲荷】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "d2e0f25c-3c0b-4f5c-832d-16fb0ebc4020",
+            "routine_date": "2024-07-27",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "559376a6-3ffb-4b8e-ad86-5c2b28e15c50",
+            "id": 17499704,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-27 15:13:29",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 17487587,
+                "routine_task_id": "434a9351-2983-4db6-a5e9-bd245b92fd80",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-27T10:04:40",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "a03e2618-d630-436e-b787-8ff04bf864af",
+            "task_name": "【針小路59】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "434a9351-2983-4db6-a5e9-bd245b92fd80",
+            "routine_date": "2024-07-27",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "73328703-796f-42f5-96b3-70ea595bbcf5",
+            "id": 17487587,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-27 10:04:40",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 17493717,
+                "routine_task_id": "0f060418-48d2-4f65-b03d-de85b94ac902",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-27T11:49:20",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "e22c8b99-2f62-4dfa-a4f2-55f7bdb04d7a",
+            "task_name": "【万寿寺】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "0f060418-48d2-4f65-b03d-de85b94ac902",
+            "routine_date": "2024-07-27",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "f12ab985-626f-4ed6-b88d-ae8a7c84fe7c",
+            "id": 17493717,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-27 11:49:20",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 17441904,
+                "routine_task_id": "be2957bc-0c39-4313-b3f6-dddfc4fb28a4",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-26T11:59:22",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "1ddffbc2-dc33-428e-bc58-d0341cbe109d",
+            "task_name": "【梅小路】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "be2957bc-0c39-4313-b3f6-dddfc4fb28a4",
+            "routine_date": "2024-07-26",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "c22da43b-41f8-484c-a111-827375e3023f",
+            "id": 17441904,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-26 11:59:22",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 17442553,
+                "routine_task_id": "5bde3a25-1ec4-4ca3-a3c6-770b1e0f4c6c",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-26T13:27:07",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "460299cb-a075-4b1b-a146-99ad4053127e",
+            "task_name": "【東福寺鴨川】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "5bde3a25-1ec4-4ca3-a3c6-770b1e0f4c6c",
+            "routine_date": "2024-07-26",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "d7abc59a-076f-4063-865d-861f4624199a",
+            "id": 17442553,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-26 13:27:07",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 17445920,
+                "routine_task_id": "f4269248-e21d-441d-b986-0d540b97d8c8",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-26T15:06:24",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "7fb6ab6a-f0eb-4340-ad39-b01091074298",
+            "task_name": "【藤ノ木西】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "f4269248-e21d-441d-b986-0d540b97d8c8",
+            "routine_date": "2024-07-26",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "a5d214a6-48d5-4f6a-b63d-a0f136e4dead",
+            "id": 17445920,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-26 15:06:24",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 17440812,
+                "routine_task_id": "208916cc-fe3d-42b6-9ade-ab0ae6efb565",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-26T10:48:05",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "a03e2618-d630-436e-b787-8ff04bf864af",
+            "task_name": "【針小路59】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "208916cc-fe3d-42b6-9ade-ab0ae6efb565",
+            "routine_date": "2024-07-26",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "73328703-796f-42f5-96b3-70ea595bbcf5",
+            "id": 17440812,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-26 10:48:05",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 17442584,
+                "routine_task_id": "c78aa0d3-e9c6-4b4e-a7cb-da8d4d4b1ccc",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-26T13:35:27",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "e22c8b99-2f62-4dfa-a4f2-55f7bdb04d7a",
+            "task_name": "【万寿寺】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "c78aa0d3-e9c6-4b4e-a7cb-da8d4d4b1ccc",
+            "routine_date": "2024-07-26",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "f12ab985-626f-4ed6-b88d-ae8a7c84fe7c",
+            "id": 17442584,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-26 13:35:27",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 17394838,
+                "routine_task_id": "d4967578-0fe5-491b-a9b3-323a50da321a",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-25T12:36:06",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "1c3737b6-3b5a-4df1-9c51-b7144dcf4dbd",
+            "task_name": "【天神町】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "d4967578-0fe5-491b-a9b3-323a50da321a",
+            "routine_date": "2024-07-25",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "9babf03f-e5ea-4b4f-a5d7-e31e2b1cc510",
+            "id": 17394838,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-25 12:36:06",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 17394968,
+                "routine_task_id": "f50dc668-c5b2-4224-9767-d6c4b484e55f",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-25T12:50:35",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "70cdc20c-c777-4c3e-a915-464f6ccf305f",
+            "task_name": "【藤ノ木中】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "f50dc668-c5b2-4224-9767-d6c4b484e55f",
+            "routine_date": "2024-07-25",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "0ce1f3a4-7b9f-40d7-bd30-f3b1bce36c61",
+            "id": 17394968,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-25 12:50:35",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 17393705,
+                "routine_task_id": "56094051-b693-47de-bb68-e57cdb367be3",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-25T11:13:13",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "884bc80b-8c29-4a0f-8fd6-e23ac99a917e",
+            "task_name": "【万里小路】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "56094051-b693-47de-bb68-e57cdb367be3",
+            "routine_date": "2024-07-25",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "10646819-d1e4-4a5a-af64-e6e4831b9a72",
+            "id": 17393705,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-25 11:13:13",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 17396494,
+                "routine_task_id": "bcd06f44-1d7a-4bf1-bb41-c5b9314fdca7",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-25T14:31:06",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "8e155120-7e04-4103-a8fa-5068ea38a048",
+            "task_name": "【伏見稲荷】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "bcd06f44-1d7a-4bf1-bb41-c5b9314fdca7",
+            "routine_date": "2024-07-25",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "559376a6-3ffb-4b8e-ad86-5c2b28e15c50",
+            "id": 17396494,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-25 14:31:06",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 17395862,
+                "routine_task_id": "15dd7e46-d92a-4161-a01d-e75d9e700808",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-25T14:04:48",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "a03e2618-d630-436e-b787-8ff04bf864af",
+            "task_name": "【針小路59】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "15dd7e46-d92a-4161-a01d-e75d9e700808",
+            "routine_date": "2024-07-25",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "73328703-796f-42f5-96b3-70ea595bbcf5",
+            "id": 17395862,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-25 14:04:48",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 17394950,
+                "routine_task_id": "3888d990-6f51-49e5-92a5-e0e6267b8e72",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-25T12:49:35",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "b59c8be1-2c10-4578-88c5-2b454e70a412",
+            "task_name": "【突抜】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "3888d990-6f51-49e5-92a5-e0e6267b8e72",
+            "routine_date": "2024-07-25",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "3cbf9da4-3cd0-463e-9e0e-f77e0755cb8e",
+            "id": 17394950,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-25 12:49:35",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 17347338,
+                "routine_task_id": "7fb08f5b-5578-4908-90ff-ab90a76d9729",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-24T11:10:29",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "e22c8b99-2f62-4dfa-a4f2-55f7bdb04d7a",
+            "task_name": "【万寿寺】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "7fb08f5b-5578-4908-90ff-ab90a76d9729",
+            "routine_date": "2024-07-24",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "f12ab985-626f-4ed6-b88d-ae8a7c84fe7c",
+            "id": 17347338,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-24 11:10:29",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 17301454,
+                "routine_task_id": "d741e016-6f72-4d5e-beb1-b5fc03a71f5b",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-23T12:44:34",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "1c3737b6-3b5a-4df1-9c51-b7144dcf4dbd",
+            "task_name": "【天神町】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "d741e016-6f72-4d5e-beb1-b5fc03a71f5b",
+            "routine_date": "2024-07-23",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "9babf03f-e5ea-4b4f-a5d7-e31e2b1cc510",
+            "id": 17301454,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-23 12:44:34",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 17300539,
+                "routine_task_id": "adfe4aef-89ad-4eb9-970d-c5049044e192",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-23T11:22:30",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "1ddffbc2-dc33-428e-bc58-d0341cbe109d",
+            "task_name": "【梅小路】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "adfe4aef-89ad-4eb9-970d-c5049044e192",
+            "routine_date": "2024-07-23",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "c22da43b-41f8-484c-a111-827375e3023f",
+            "id": 17300539,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-23 11:22:30",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 17260032,
+                "routine_task_id": "1b8b3705-de06-4d1a-8b1f-72b536d1a13c",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-22T15:21:19",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "7fb6ab6a-f0eb-4340-ad39-b01091074298",
+            "task_name": "【藤ノ木西】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "1b8b3705-de06-4d1a-8b1f-72b536d1a13c",
+            "routine_date": "2024-07-22",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "a5d214a6-48d5-4f6a-b63d-a0f136e4dead",
+            "id": 17260032,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-22 15:21:19",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 17254534,
+                "routine_task_id": "c6418550-d23b-4309-9b06-ee899471c29c",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-22T11:42:07",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "884bc80b-8c29-4a0f-8fd6-e23ac99a917e",
+            "task_name": "【万里小路】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "c6418550-d23b-4309-9b06-ee899471c29c",
+            "routine_date": "2024-07-22",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "10646819-d1e4-4a5a-af64-e6e4831b9a72",
+            "id": 17254534,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-22 11:42:07",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 17255231,
+                "routine_task_id": "2940b99d-337f-46cc-8e2a-231f21b331ce",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-22T13:01:22",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "a03e2618-d630-436e-b787-8ff04bf864af",
+            "task_name": "【針小路59】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "2940b99d-337f-46cc-8e2a-231f21b331ce",
+            "routine_date": "2024-07-22",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "73328703-796f-42f5-96b3-70ea595bbcf5",
+            "id": 17255231,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-22 13:01:22",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 17255761,
+                "routine_task_id": "db1780bd-33c1-4cb4-b503-38d9c68c2567",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-22T13:48:57",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "b59c8be1-2c10-4578-88c5-2b454e70a412",
+            "task_name": "【突抜】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "db1780bd-33c1-4cb4-b503-38d9c68c2567",
+            "routine_date": "2024-07-22",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "3cbf9da4-3cd0-463e-9e0e-f77e0755cb8e",
+            "id": 17255761,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-22 13:48:57",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 17205413,
+                "routine_task_id": "8a75f657-a3da-4ef5-93ef-41d054db2d67",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-21T10:09:50",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "1c3737b6-3b5a-4df1-9c51-b7144dcf4dbd",
+            "task_name": "【天神町】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "8a75f657-a3da-4ef5-93ef-41d054db2d67",
+            "routine_date": "2024-07-21",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "9babf03f-e5ea-4b4f-a5d7-e31e2b1cc510",
+            "id": 17205413,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-21 10:09:50",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 17219357,
+                "routine_task_id": "be7f4f14-8c6a-44ce-9d05-5fd731295eb4",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-21T16:31:22",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "460299cb-a075-4b1b-a146-99ad4053127e",
+            "task_name": "【東福寺鴨川】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "be7f4f14-8c6a-44ce-9d05-5fd731295eb4",
+            "routine_date": "2024-07-21",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "d7abc59a-076f-4063-865d-861f4624199a",
+            "id": 17219357,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-21 16:31:22",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 17215839,
+                "routine_task_id": "fbb604b3-d014-4b18-8506-adad2e3c2e5e",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-21T13:51:40",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "70cdc20c-c777-4c3e-a915-464f6ccf305f",
+            "task_name": "【藤ノ木中】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "fbb604b3-d014-4b18-8506-adad2e3c2e5e",
+            "routine_date": "2024-07-21",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "0ce1f3a4-7b9f-40d7-bd30-f3b1bce36c61",
+            "id": 17215839,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-21 13:51:40",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 17217844,
+                "routine_task_id": "a7091e8e-0902-4127-ac29-4d7e62e664da",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-21T15:25:32",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "8e155120-7e04-4103-a8fa-5068ea38a048",
+            "task_name": "【伏見稲荷】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "a7091e8e-0902-4127-ac29-4d7e62e664da",
+            "routine_date": "2024-07-21",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "559376a6-3ffb-4b8e-ad86-5c2b28e15c50",
+            "id": 17217844,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-21 15:25:32",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 17215150,
+                "routine_task_id": "ebeb79db-45e7-43b3-97c7-81705c7ea0e6",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-21T13:17:03",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "a03e2618-d630-436e-b787-8ff04bf864af",
+            "task_name": "【針小路59】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "ebeb79db-45e7-43b3-97c7-81705c7ea0e6",
+            "routine_date": "2024-07-21",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "73328703-796f-42f5-96b3-70ea595bbcf5",
+            "id": 17215150,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-21 13:17:03",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 17213519,
+                "routine_task_id": "db828c6c-abb1-4923-859f-54c87592622f",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-21T12:07:16",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "e22c8b99-2f62-4dfa-a4f2-55f7bdb04d7a",
+            "task_name": "【万寿寺】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "db828c6c-abb1-4923-859f-54c87592622f",
+            "routine_date": "2024-07-21",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "f12ab985-626f-4ed6-b88d-ae8a7c84fe7c",
+            "id": 17213519,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-21 12:07:16",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 17166476,
+                "routine_task_id": "ef0b292d-ff9c-47c9-aad8-bc428cc532b9",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-20T12:53:55",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "1ddffbc2-dc33-428e-bc58-d0341cbe109d",
+            "task_name": "【梅小路】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "ef0b292d-ff9c-47c9-aad8-bc428cc532b9",
+            "routine_date": "2024-07-20",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "c22da43b-41f8-484c-a111-827375e3023f",
+            "id": 17166476,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-20 12:53:55",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 17166097,
+                "routine_task_id": "1dbb551b-cf74-4270-b2df-ad6d35ca13a2",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-20T12:38:45",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "7fb6ab6a-f0eb-4340-ad39-b01091074298",
+            "task_name": "【藤ノ木西】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "1dbb551b-cf74-4270-b2df-ad6d35ca13a2",
+            "routine_date": "2024-07-20",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "a5d214a6-48d5-4f6a-b63d-a0f136e4dead",
+            "id": 17166097,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-20 12:38:45",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 17113751,
+                "routine_task_id": "329132e9-9740-4361-be00-7dabb40f0443",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-19T13:01:10",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "460299cb-a075-4b1b-a146-99ad4053127e",
+            "task_name": "【東福寺鴨川】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "329132e9-9740-4361-be00-7dabb40f0443",
+            "routine_date": "2024-07-19",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "d7abc59a-076f-4063-865d-861f4624199a",
+            "id": 17113751,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-19 13:01:10",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 17115545,
+                "routine_task_id": "a87f030e-cf77-4441-a135-5e415ba7ef8e",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-19T14:23:24",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "8e155120-7e04-4103-a8fa-5068ea38a048",
+            "task_name": "【伏見稲荷】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "a87f030e-cf77-4441-a135-5e415ba7ef8e",
+            "routine_date": "2024-07-19",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "559376a6-3ffb-4b8e-ad86-5c2b28e15c50",
+            "id": 17115545,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-19 14:23:24",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 17112368,
+                "routine_task_id": "e66e42b0-2ab9-4c57-bb91-03c3699e38ee",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-19T11:14:58",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "b59c8be1-2c10-4578-88c5-2b454e70a412",
+            "task_name": "【突抜】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "e66e42b0-2ab9-4c57-bb91-03c3699e38ee",
+            "routine_date": "2024-07-19",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "3cbf9da4-3cd0-463e-9e0e-f77e0755cb8e",
+            "id": 17112368,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-19 11:14:58",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 17064472,
+                "routine_task_id": "582a59a7-31d2-4d2c-b946-63d8a989a5ca",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-18T11:24:48",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "1c3737b6-3b5a-4df1-9c51-b7144dcf4dbd",
+            "task_name": "【天神町】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "582a59a7-31d2-4d2c-b946-63d8a989a5ca",
+            "routine_date": "2024-07-18",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "9babf03f-e5ea-4b4f-a5d7-e31e2b1cc510",
+            "id": 17064472,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-18 11:24:48",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 17066987,
+                "routine_task_id": "27092ef5-531e-4113-aeab-c38571326248",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-18T14:25:52",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "70cdc20c-c777-4c3e-a915-464f6ccf305f",
+            "task_name": "【藤ノ木中】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "27092ef5-531e-4113-aeab-c38571326248",
+            "routine_date": "2024-07-18",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "0ce1f3a4-7b9f-40d7-bd30-f3b1bce36c61",
+            "id": 17066987,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-18 14:25:52",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 17066993,
+                "routine_task_id": "71f27a8f-499b-43ce-90ea-8f482f73e260",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-18T14:26:19",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "884bc80b-8c29-4a0f-8fd6-e23ac99a917e",
+            "task_name": "【万里小路】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "71f27a8f-499b-43ce-90ea-8f482f73e260",
+            "routine_date": "2024-07-18",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "10646819-d1e4-4a5a-af64-e6e4831b9a72",
+            "id": 17066993,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-18 14:26:19",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 17065392,
+                "routine_task_id": "79e64613-5043-4a49-b456-5314c9505df0",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-18T12:20:49",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "8e155120-7e04-4103-a8fa-5068ea38a048",
+            "task_name": "【伏見稲荷】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "79e64613-5043-4a49-b456-5314c9505df0",
+            "routine_date": "2024-07-18",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "559376a6-3ffb-4b8e-ad86-5c2b28e15c50",
+            "id": 17065392,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-18 12:20:49",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 17072734,
+                "routine_task_id": "2d254e77-d29b-40b4-8c1b-21d7e27decbc",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-18T16:00:40",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "a03e2618-d630-436e-b787-8ff04bf864af",
+            "task_name": "【針小路59】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "2d254e77-d29b-40b4-8c1b-21d7e27decbc",
+            "routine_date": "2024-07-18",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "73328703-796f-42f5-96b3-70ea595bbcf5",
+            "id": 17072734,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-18 16:00:40",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 17065636,
+                "routine_task_id": "22f2ca84-1ae4-4479-8e89-fbbb45c4ad62",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-18T12:53:45",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "e22c8b99-2f62-4dfa-a4f2-55f7bdb04d7a",
+            "task_name": "【万寿寺】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "22f2ca84-1ae4-4479-8e89-fbbb45c4ad62",
+            "routine_date": "2024-07-18",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "f12ab985-626f-4ed6-b88d-ae8a7c84fe7c",
+            "id": 17065636,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-18 12:53:45",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 17019610,
+                "routine_task_id": "f6ef4cca-fa23-4591-931d-1cb126aba418",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-17T13:44:47",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "1ddffbc2-dc33-428e-bc58-d0341cbe109d",
+            "task_name": "【梅小路】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "f6ef4cca-fa23-4591-931d-1cb126aba418",
+            "routine_date": "2024-07-17",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "c22da43b-41f8-484c-a111-827375e3023f",
+            "id": 17019610,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-17 13:44:47",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 17017340,
+                "routine_task_id": "df2216a3-690a-4b06-b26e-38eeb4056366",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-17T11:07:44",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "460299cb-a075-4b1b-a146-99ad4053127e",
+            "task_name": "【東福寺鴨川】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "df2216a3-690a-4b06-b26e-38eeb4056366",
+            "routine_date": "2024-07-17",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "d7abc59a-076f-4063-865d-861f4624199a",
+            "id": 17017340,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-17 11:07:44",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 17018851,
+                "routine_task_id": "376be543-a346-4c27-a90c-35c08e23ef1f",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-17T12:40:52",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "7fb6ab6a-f0eb-4340-ad39-b01091074298",
+            "task_name": "【藤ノ木西】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "376be543-a346-4c27-a90c-35c08e23ef1f",
+            "routine_date": "2024-07-17",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "a5d214a6-48d5-4f6a-b63d-a0f136e4dead",
+            "id": 17018851,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-17 12:40:52",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 17018843,
+                "routine_task_id": "51f0b29f-2dcc-4ab0-8208-ec85ca71c70e",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-17T12:40:09",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "b59c8be1-2c10-4578-88c5-2b454e70a412",
+            "task_name": "【突抜】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "51f0b29f-2dcc-4ab0-8208-ec85ca71c70e",
+            "routine_date": "2024-07-17",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "3cbf9da4-3cd0-463e-9e0e-f77e0755cb8e",
+            "id": 17018843,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-17 12:40:09",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16971672,
+                "routine_task_id": "a77e2e85-cbec-4f0c-9f69-fbfae72b1b57",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-16T12:42:39",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "1ddffbc2-dc33-428e-bc58-d0341cbe109d",
+            "task_name": "【梅小路】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "a77e2e85-cbec-4f0c-9f69-fbfae72b1b57",
+            "routine_date": "2024-07-16",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "c22da43b-41f8-484c-a111-827375e3023f",
+            "id": 16971672,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-16 12:42:39",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16970515,
+                "routine_task_id": "8e3cc900-3a5a-4479-8925-903f3bf282ed",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-16T11:20:06",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "884bc80b-8c29-4a0f-8fd6-e23ac99a917e",
+            "task_name": "【万里小路】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "8e3cc900-3a5a-4479-8925-903f3bf282ed",
+            "routine_date": "2024-07-16",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "10646819-d1e4-4a5a-af64-e6e4831b9a72",
+            "id": 16970515,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-16 11:20:06",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16973153,
+                "routine_task_id": "10314a78-e439-4a40-9956-c28099f62e6c",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-16T14:26:39",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "8e155120-7e04-4103-a8fa-5068ea38a048",
+            "task_name": "【伏見稲荷】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "10314a78-e439-4a40-9956-c28099f62e6c",
+            "routine_date": "2024-07-16",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "559376a6-3ffb-4b8e-ad86-5c2b28e15c50",
+            "id": 16973153,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-16 14:26:39",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16935350,
+                "routine_task_id": "0e0079b8-abbd-4f21-84ff-28f6a6767705",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-15T16:04:11",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "1c3737b6-3b5a-4df1-9c51-b7144dcf4dbd",
+            "task_name": "【天神町】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "0e0079b8-abbd-4f21-84ff-28f6a6767705",
+            "routine_date": "2024-07-15",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "9babf03f-e5ea-4b4f-a5d7-e31e2b1cc510",
+            "id": 16935350,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-15 16:04:11",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16920830,
+                "routine_task_id": "5f603f06-24fc-4c46-95a0-08e69c681717",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-15T09:55:39",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "460299cb-a075-4b1b-a146-99ad4053127e",
+            "task_name": "【東福寺鴨川】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "5f603f06-24fc-4c46-95a0-08e69c681717",
+            "routine_date": "2024-07-15",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "d7abc59a-076f-4063-865d-861f4624199a",
+            "id": 16920830,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-15 09:55:39",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16937325,
+                "routine_task_id": "aa556009-15ab-46d5-8524-d8dd94f1d186",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-15T17:58:26",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "70cdc20c-c777-4c3e-a915-464f6ccf305f",
+            "task_name": "【藤ノ木中】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "aa556009-15ab-46d5-8524-d8dd94f1d186",
+            "routine_date": "2024-07-15",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "0ce1f3a4-7b9f-40d7-bd30-f3b1bce36c61",
+            "id": 16937325,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-15 17:58:26",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16929713,
+                "routine_task_id": "abc35c9b-a996-4ccf-88c2-579904e719d9",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-15T12:24:23",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "7fb6ab6a-f0eb-4340-ad39-b01091074298",
+            "task_name": "【藤ノ木西】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "abc35c9b-a996-4ccf-88c2-579904e719d9",
+            "routine_date": "2024-07-15",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "a5d214a6-48d5-4f6a-b63d-a0f136e4dead",
+            "id": 16929713,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-15 12:24:23",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16932378,
+                "routine_task_id": "c32d325d-958a-4987-99de-5a0ec30e4e1e",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-15T14:20:50",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "884bc80b-8c29-4a0f-8fd6-e23ac99a917e",
+            "task_name": "【万里小路】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "c32d325d-958a-4987-99de-5a0ec30e4e1e",
+            "routine_date": "2024-07-15",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "10646819-d1e4-4a5a-af64-e6e4831b9a72",
+            "id": 16932378,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-15 14:20:50",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16926306,
+                "routine_task_id": "a97955db-1aca-4f29-823b-453f6c720b2d",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-15T11:30:28",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "a03e2618-d630-436e-b787-8ff04bf864af",
+            "task_name": "【針小路59】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "a97955db-1aca-4f29-823b-453f6c720b2d",
+            "routine_date": "2024-07-15",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "73328703-796f-42f5-96b3-70ea595bbcf5",
+            "id": 16926306,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-15 11:30:28",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16875183,
+                "routine_task_id": "1c932702-623d-4b22-ad97-0a49f95f7529",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-14T11:01:42",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "1c3737b6-3b5a-4df1-9c51-b7144dcf4dbd",
+            "task_name": "【天神町】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "1c932702-623d-4b22-ad97-0a49f95f7529",
+            "routine_date": "2024-07-14",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "9babf03f-e5ea-4b4f-a5d7-e31e2b1cc510",
+            "id": 16875183,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-14 11:01:42",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16885715,
+                "routine_task_id": "71a4f572-009e-47fd-bdda-f0d0f07295c5",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-14T15:40:14",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "1ddffbc2-dc33-428e-bc58-d0341cbe109d",
+            "task_name": "【梅小路】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "71a4f572-009e-47fd-bdda-f0d0f07295c5",
+            "routine_date": "2024-07-14",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "c22da43b-41f8-484c-a111-827375e3023f",
+            "id": 16885715,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-14 15:40:14",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16872387,
+                "routine_task_id": "c7c3ae53-fc52-4c05-a233-7e2bb3fe804f",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-14T09:52:12",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "460299cb-a075-4b1b-a146-99ad4053127e",
+            "task_name": "【東福寺鴨川】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "c7c3ae53-fc52-4c05-a233-7e2bb3fe804f",
+            "routine_date": "2024-07-14",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "d7abc59a-076f-4063-865d-861f4624199a",
+            "id": 16872387,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-14 09:52:12",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16882633,
+                "routine_task_id": "2acac498-1892-4d38-a424-0a07eb3044d2",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-14T13:29:30",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "70cdc20c-c777-4c3e-a915-464f6ccf305f",
+            "task_name": "【藤ノ木中】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "2acac498-1892-4d38-a424-0a07eb3044d2",
+            "routine_date": "2024-07-14",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "0ce1f3a4-7b9f-40d7-bd30-f3b1bce36c61",
+            "id": 16882633,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-14 13:29:30",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16881613,
+                "routine_task_id": "fd3c6c40-d97f-4286-94da-9312ccd25b26",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-14T12:50:13",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "a03e2618-d630-436e-b787-8ff04bf864af",
+            "task_name": "【針小路59】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "fd3c6c40-d97f-4286-94da-9312ccd25b26",
+            "routine_date": "2024-07-14",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "73328703-796f-42f5-96b3-70ea595bbcf5",
+            "id": 16881613,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-14 12:50:13",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16885707,
+                "routine_task_id": "0659f248-f5ab-4231-926f-e51cb6527a0b",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-14T15:40:05",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "b59c8be1-2c10-4578-88c5-2b454e70a412",
+            "task_name": "【突抜】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "0659f248-f5ab-4231-926f-e51cb6527a0b",
+            "routine_date": "2024-07-14",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "3cbf9da4-3cd0-463e-9e0e-f77e0755cb8e",
+            "id": 16885707,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-14 15:40:05",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16834355,
+                "routine_task_id": "983e5cd8-864e-4e1e-8121-b1027304c734",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-13T12:44:43",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "1c3737b6-3b5a-4df1-9c51-b7144dcf4dbd",
+            "task_name": "【天神町】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "983e5cd8-864e-4e1e-8121-b1027304c734",
+            "routine_date": "2024-07-13",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "9babf03f-e5ea-4b4f-a5d7-e31e2b1cc510",
+            "id": 16834355,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-13 12:44:43",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16829006,
+                "routine_task_id": "774aa8b5-d999-4d60-b32b-cf67b3196d0c",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-13T11:09:08",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "884bc80b-8c29-4a0f-8fd6-e23ac99a917e",
+            "task_name": "【万里小路】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "774aa8b5-d999-4d60-b32b-cf67b3196d0c",
+            "routine_date": "2024-07-13",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "10646819-d1e4-4a5a-af64-e6e4831b9a72",
+            "id": 16829006,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-13 11:09:08",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16825537,
+                "routine_task_id": "631bddad-8a63-4eda-a8b7-76fe908e2aa4",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-13T09:25:45",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "e22c8b99-2f62-4dfa-a4f2-55f7bdb04d7a",
+            "task_name": "【万寿寺】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "631bddad-8a63-4eda-a8b7-76fe908e2aa4",
+            "routine_date": "2024-07-13",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "f12ab985-626f-4ed6-b88d-ae8a7c84fe7c",
+            "id": 16825537,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-13 09:25:45",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16782147,
+                "routine_task_id": "d89e3d52-93cc-4d46-a1fa-ebe7fd0e7765",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-12T13:47:51",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "460299cb-a075-4b1b-a146-99ad4053127e",
+            "task_name": "【東福寺鴨川】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "d89e3d52-93cc-4d46-a1fa-ebe7fd0e7765",
+            "routine_date": "2024-07-12",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "d7abc59a-076f-4063-865d-861f4624199a",
+            "id": 16782147,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-12 13:47:51",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16781220,
+                "routine_task_id": "805d0d24-1a8f-4195-be38-df62ae203e2b",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-12T12:18:59",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "7fb6ab6a-f0eb-4340-ad39-b01091074298",
+            "task_name": "【藤ノ木西】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "805d0d24-1a8f-4195-be38-df62ae203e2b",
+            "routine_date": "2024-07-12",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "a5d214a6-48d5-4f6a-b63d-a0f136e4dead",
+            "id": 16781220,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-12 12:18:59",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16784224,
+                "routine_task_id": "578cfb4d-09ee-4835-bdd9-8a53311d1ee1",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-12T14:57:54",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "8e155120-7e04-4103-a8fa-5068ea38a048",
+            "task_name": "【伏見稲荷】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "578cfb4d-09ee-4835-bdd9-8a53311d1ee1",
+            "routine_date": "2024-07-12",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "559376a6-3ffb-4b8e-ad86-5c2b28e15c50",
+            "id": 16784224,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-12 14:57:54",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16780712,
+                "routine_task_id": "93197ac6-0820-448d-9196-1ca855476037",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-12T11:28:24",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "b59c8be1-2c10-4578-88c5-2b454e70a412",
+            "task_name": "【突抜】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "93197ac6-0820-448d-9196-1ca855476037",
+            "routine_date": "2024-07-12",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "3cbf9da4-3cd0-463e-9e0e-f77e0755cb8e",
+            "id": 16780712,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-12 11:28:24",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16734116,
+                "routine_task_id": "44af237e-3557-4768-85f6-43cee727365b",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-11T12:49:14",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "1ddffbc2-dc33-428e-bc58-d0341cbe109d",
+            "task_name": "【梅小路】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "44af237e-3557-4768-85f6-43cee727365b",
+            "routine_date": "2024-07-11",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "c22da43b-41f8-484c-a111-827375e3023f",
+            "id": 16734116,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-11 12:49:14",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16733661,
+                "routine_task_id": "351571d1-a9d9-4368-a5a0-4f50bae39c2a",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-11T11:46:20",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "70cdc20c-c777-4c3e-a915-464f6ccf305f",
+            "task_name": "【藤ノ木中】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "351571d1-a9d9-4368-a5a0-4f50bae39c2a",
+            "routine_date": "2024-07-11",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "0ce1f3a4-7b9f-40d7-bd30-f3b1bce36c61",
+            "id": 16733661,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-11 11:46:20",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16735357,
+                "routine_task_id": "2536fe43-9ad6-4029-96de-8200c0e83f33",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-11T13:52:16",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "884bc80b-8c29-4a0f-8fd6-e23ac99a917e",
+            "task_name": "【万里小路】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "2536fe43-9ad6-4029-96de-8200c0e83f33",
+            "routine_date": "2024-07-11",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "10646819-d1e4-4a5a-af64-e6e4831b9a72",
+            "id": 16735357,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-11 13:52:16",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16732312,
+                "routine_task_id": "69874bed-3c3e-413d-9174-4a9454935b2a",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-11T10:43:24",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "a03e2618-d630-436e-b787-8ff04bf864af",
+            "task_name": "【針小路59】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "69874bed-3c3e-413d-9174-4a9454935b2a",
+            "routine_date": "2024-07-11",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "73328703-796f-42f5-96b3-70ea595bbcf5",
+            "id": 16732312,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-11 10:43:24",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16687456,
+                "routine_task_id": "420d3d3c-60c0-4126-ae0b-5f480505e45f",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-10T12:18:59",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "1c3737b6-3b5a-4df1-9c51-b7144dcf4dbd",
+            "task_name": "【天神町】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "420d3d3c-60c0-4126-ae0b-5f480505e45f",
+            "routine_date": "2024-07-10",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "9babf03f-e5ea-4b4f-a5d7-e31e2b1cc510",
+            "id": 16687456,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-10 12:18:59",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16687998,
+                "routine_task_id": "90fd4c86-a058-48b7-921a-d6fc691c46bb",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-10T13:20:16",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "460299cb-a075-4b1b-a146-99ad4053127e",
+            "task_name": "【東福寺鴨川】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "90fd4c86-a058-48b7-921a-d6fc691c46bb",
+            "routine_date": "2024-07-10",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "d7abc59a-076f-4063-865d-861f4624199a",
+            "id": 16687998,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-10 13:20:16",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16688463,
+                "routine_task_id": "e446aa05-ac9d-4561-b9ff-7353ff9945c9",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-10T14:00:11",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "8e155120-7e04-4103-a8fa-5068ea38a048",
+            "task_name": "【伏見稲荷】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "e446aa05-ac9d-4561-b9ff-7353ff9945c9",
+            "routine_date": "2024-07-10",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "559376a6-3ffb-4b8e-ad86-5c2b28e15c50",
+            "id": 16688463,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-10 14:00:11",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16686566,
+                "routine_task_id": "19b00009-742f-4747-ab8c-15a1f82a3af6",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-10T11:06:26",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "a03e2618-d630-436e-b787-8ff04bf864af",
+            "task_name": "【針小路59】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "19b00009-742f-4747-ab8c-15a1f82a3af6",
+            "routine_date": "2024-07-10",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "73328703-796f-42f5-96b3-70ea595bbcf5",
+            "id": 16686566,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-10 11:06:26",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16692121,
+                "routine_task_id": "f17f0faa-c34f-4686-bdc4-38bb0cd0df79",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-10T15:27:26",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "b59c8be1-2c10-4578-88c5-2b454e70a412",
+            "task_name": "【突抜】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "f17f0faa-c34f-4686-bdc4-38bb0cd0df79",
+            "routine_date": "2024-07-10",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "3cbf9da4-3cd0-463e-9e0e-f77e0755cb8e",
+            "id": 16692121,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-10 15:27:26",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16688423,
+                "routine_task_id": "503e65a0-c497-4f4b-ae79-276a791615b3",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-10T13:57:11",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "e22c8b99-2f62-4dfa-a4f2-55f7bdb04d7a",
+            "task_name": "【万寿寺】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "503e65a0-c497-4f4b-ae79-276a791615b3",
+            "routine_date": "2024-07-10",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "f12ab985-626f-4ed6-b88d-ae8a7c84fe7c",
+            "id": 16688423,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-10 13:57:11",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16639943,
+                "routine_task_id": "938e841c-da5f-406b-a0e2-9cb64daf032e",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-09T11:12:41",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "1ddffbc2-dc33-428e-bc58-d0341cbe109d",
+            "task_name": "【梅小路】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "938e841c-da5f-406b-a0e2-9cb64daf032e",
+            "routine_date": "2024-07-09",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "c22da43b-41f8-484c-a111-827375e3023f",
+            "id": 16639943,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-09 11:12:41",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16641012,
+                "routine_task_id": "041eea8d-7f00-4bb4-a2c7-87bb6738080c",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-09T12:37:31",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "70cdc20c-c777-4c3e-a915-464f6ccf305f",
+            "task_name": "【藤ノ木中】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "041eea8d-7f00-4bb4-a2c7-87bb6738080c",
+            "routine_date": "2024-07-09",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "0ce1f3a4-7b9f-40d7-bd30-f3b1bce36c61",
+            "id": 16641012,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-09 12:37:31",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16641905,
+                "routine_task_id": "9e12e056-04c2-4785-8fbd-07e1ac591c6b",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-09T13:49:31",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "7fb6ab6a-f0eb-4340-ad39-b01091074298",
+            "task_name": "【藤ノ木西】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "9e12e056-04c2-4785-8fbd-07e1ac591c6b",
+            "routine_date": "2024-07-09",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "a5d214a6-48d5-4f6a-b63d-a0f136e4dead",
+            "id": 16641905,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-09 13:49:31",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16594727,
+                "routine_task_id": "77dcdcc2-839b-43be-8b7d-8b192af182f1",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-08T11:50:24",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "1c3737b6-3b5a-4df1-9c51-b7144dcf4dbd",
+            "task_name": "【天神町】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "77dcdcc2-839b-43be-8b7d-8b192af182f1",
+            "routine_date": "2024-07-08",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "9babf03f-e5ea-4b4f-a5d7-e31e2b1cc510",
+            "id": 16594727,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-08 11:50:24",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16595563,
+                "routine_task_id": "ca5e8913-21d6-4257-8e52-91f3d8c001fc",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-08T13:07:15",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "460299cb-a075-4b1b-a146-99ad4053127e",
+            "task_name": "【東福寺鴨川】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "ca5e8913-21d6-4257-8e52-91f3d8c001fc",
+            "routine_date": "2024-07-08",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "d7abc59a-076f-4063-865d-861f4624199a",
+            "id": 16595563,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-08 13:07:15",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16553925,
+                "routine_task_id": "67f2820c-c3c1-4300-829e-add89337d1e9",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-07T12:41:56",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "70cdc20c-c777-4c3e-a915-464f6ccf305f",
+            "task_name": "【藤ノ木中】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "67f2820c-c3c1-4300-829e-add89337d1e9",
+            "routine_date": "2024-07-07",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "0ce1f3a4-7b9f-40d7-bd30-f3b1bce36c61",
+            "id": 16553925,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-07 12:41:56",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16549650,
+                "routine_task_id": "2b80f379-f5a1-4e6f-939d-03354d853116",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-07T11:20:15",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "7fb6ab6a-f0eb-4340-ad39-b01091074298",
+            "task_name": "【藤ノ木西】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "2b80f379-f5a1-4e6f-939d-03354d853116",
+            "routine_date": "2024-07-07",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "a5d214a6-48d5-4f6a-b63d-a0f136e4dead",
+            "id": 16549650,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-07 11:20:15",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16557879,
+                "routine_task_id": "312312e3-753a-4f7f-aea2-b225640112c0",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-07T15:34:06",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "884bc80b-8c29-4a0f-8fd6-e23ac99a917e",
+            "task_name": "【万里小路】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "312312e3-753a-4f7f-aea2-b225640112c0",
+            "routine_date": "2024-07-07",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "10646819-d1e4-4a5a-af64-e6e4831b9a72",
+            "id": 16557879,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-07 15:34:06",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16545581,
+                "routine_task_id": "7c260643-dc3b-4122-a72b-d3324ed2279d",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-07T10:06:50",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "a03e2618-d630-436e-b787-8ff04bf864af",
+            "task_name": "【針小路59】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "7c260643-dc3b-4122-a72b-d3324ed2279d",
+            "routine_date": "2024-07-07",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "73328703-796f-42f5-96b3-70ea595bbcf5",
+            "id": 16545581,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-07 10:06:50",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16559811,
+                "routine_task_id": "f63ef415-dff5-463a-89ab-6aa15fb63690",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-07T17:11:53",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "b59c8be1-2c10-4578-88c5-2b454e70a412",
+            "task_name": "【突抜】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "f63ef415-dff5-463a-89ab-6aa15fb63690",
+            "routine_date": "2024-07-07",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "3cbf9da4-3cd0-463e-9e0e-f77e0755cb8e",
+            "id": 16559811,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-07 17:11:53",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16555844,
+                "routine_task_id": "4d721f04-5c5b-4776-932d-210c2233c622",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-07T14:16:22",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "e22c8b99-2f62-4dfa-a4f2-55f7bdb04d7a",
+            "task_name": "【万寿寺】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "4d721f04-5c5b-4776-932d-210c2233c622",
+            "routine_date": "2024-07-07",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "f12ab985-626f-4ed6-b88d-ae8a7c84fe7c",
+            "id": 16555844,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-07 14:16:22",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16508109,
+                "routine_task_id": "7e06995c-cec3-4716-90bb-b944a76bf5e7",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-06T13:34:08",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "1c3737b6-3b5a-4df1-9c51-b7144dcf4dbd",
+            "task_name": "【天神町】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "7e06995c-cec3-4716-90bb-b944a76bf5e7",
+            "routine_date": "2024-07-06",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "9babf03f-e5ea-4b4f-a5d7-e31e2b1cc510",
+            "id": 16508109,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-06 13:34:08",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16504354,
+                "routine_task_id": "4afc0d9d-2ece-4664-b208-e015e9f25b1c",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-06T11:48:21",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "460299cb-a075-4b1b-a146-99ad4053127e",
+            "task_name": "【東福寺鴨川】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "4afc0d9d-2ece-4664-b208-e015e9f25b1c",
+            "routine_date": "2024-07-06",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "d7abc59a-076f-4063-865d-861f4624199a",
+            "id": 16504354,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-06 11:48:21",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16499172,
+                "routine_task_id": "bac4db34-ee97-40c1-aa38-e3cc6de54b7d",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-06T10:25:19",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "a03e2618-d630-436e-b787-8ff04bf864af",
+            "task_name": "【針小路59】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "bac4db34-ee97-40c1-aa38-e3cc6de54b7d",
+            "routine_date": "2024-07-06",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "73328703-796f-42f5-96b3-70ea595bbcf5",
+            "id": 16499172,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-06 10:25:19",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16452917,
+                "routine_task_id": "9021c27b-4fd4-4bb0-a3fd-e369596350d2",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-05T10:40:24",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "460299cb-a075-4b1b-a146-99ad4053127e",
+            "task_name": "【東福寺鴨川】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "9021c27b-4fd4-4bb0-a3fd-e369596350d2",
+            "routine_date": "2024-07-05",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "d7abc59a-076f-4063-865d-861f4624199a",
+            "id": 16452917,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-05 10:40:24",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16455336,
+                "routine_task_id": "f44145e2-023f-4984-b4e2-33758d6dbcda",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-05T13:45:33",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "7fb6ab6a-f0eb-4340-ad39-b01091074298",
+            "task_name": "【藤ノ木西】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "f44145e2-023f-4984-b4e2-33758d6dbcda",
+            "routine_date": "2024-07-05",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "a5d214a6-48d5-4f6a-b63d-a0f136e4dead",
+            "id": 16455336,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-05 13:45:33",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16454437,
+                "routine_task_id": "0b84ae4c-d854-46fe-8a0e-f66938f3c5e5",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-05T12:18:30",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "e22c8b99-2f62-4dfa-a4f2-55f7bdb04d7a",
+            "task_name": "【万寿寺】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "0b84ae4c-d854-46fe-8a0e-f66938f3c5e5",
+            "routine_date": "2024-07-05",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "f12ab985-626f-4ed6-b88d-ae8a7c84fe7c",
+            "id": 16454437,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-05 12:18:30",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16405945,
+                "routine_task_id": "1745937c-a0ed-4d8c-ae8f-dc155cdc4f77",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-04T11:05:19",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "1c3737b6-3b5a-4df1-9c51-b7144dcf4dbd",
+            "task_name": "【天神町】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "1745937c-a0ed-4d8c-ae8f-dc155cdc4f77",
+            "routine_date": "2024-07-04",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "9babf03f-e5ea-4b4f-a5d7-e31e2b1cc510",
+            "id": 16405945,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-04 11:05:19",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16407806,
+                "routine_task_id": "5760b832-c244-4667-8a78-bfbcd2098165",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-04T13:32:49",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "70cdc20c-c777-4c3e-a915-464f6ccf305f",
+            "task_name": "【藤ノ木中】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "5760b832-c244-4667-8a78-bfbcd2098165",
+            "routine_date": "2024-07-04",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "0ce1f3a4-7b9f-40d7-bd30-f3b1bce36c61",
+            "id": 16407806,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-04 13:32:49",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16414452,
+                "routine_task_id": "f966ecf0-2585-41c8-b546-a6f2b078193f",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-04T15:58:55",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "8e155120-7e04-4103-a8fa-5068ea38a048",
+            "task_name": "【伏見稲荷】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "f966ecf0-2585-41c8-b546-a6f2b078193f",
+            "routine_date": "2024-07-04",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "559376a6-3ffb-4b8e-ad86-5c2b28e15c50",
+            "id": 16414452,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-04 15:58:55",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16360924,
+                "routine_task_id": "dc016968-939c-4007-bd8e-395815cc2110",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-03T12:39:42",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "460299cb-a075-4b1b-a146-99ad4053127e",
+            "task_name": "【東福寺鴨川】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "dc016968-939c-4007-bd8e-395815cc2110",
+            "routine_date": "2024-07-03",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "d7abc59a-076f-4063-865d-861f4624199a",
+            "id": 16360924,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-03 12:39:42",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16359319,
+                "routine_task_id": "af36d17a-f03c-4180-bec8-74d9af48474d",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-03T10:52:26",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "884bc80b-8c29-4a0f-8fd6-e23ac99a917e",
+            "task_name": "【万里小路】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "af36d17a-f03c-4180-bec8-74d9af48474d",
+            "routine_date": "2024-07-03",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "10646819-d1e4-4a5a-af64-e6e4831b9a72",
+            "id": 16359319,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-03 10:52:26",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16314013,
+                "routine_task_id": "eafff0af-e8d7-4088-b283-ef2929ce38d8",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-02T14:06:35",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "70cdc20c-c777-4c3e-a915-464f6ccf305f",
+            "task_name": "【藤ノ木中】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "eafff0af-e8d7-4088-b283-ef2929ce38d8",
+            "routine_date": "2024-07-02",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "0ce1f3a4-7b9f-40d7-bd30-f3b1bce36c61",
+            "id": 16314013,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-02 14:06:35",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16314997,
+                "routine_task_id": "4350fe3c-39df-4d37-9a9d-b82c9700de0d",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-02T14:46:37",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "7fb6ab6a-f0eb-4340-ad39-b01091074298",
+            "task_name": "【藤ノ木西】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "4350fe3c-39df-4d37-9a9d-b82c9700de0d",
+            "routine_date": "2024-07-02",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "a5d214a6-48d5-4f6a-b63d-a0f136e4dead",
+            "id": 16314997,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-02 14:46:37",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16312825,
+                "routine_task_id": "32a825cd-e04d-406c-a10c-cc23a0ae9194",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-02T12:18:26",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "b59c8be1-2c10-4578-88c5-2b454e70a412",
+            "task_name": "【突抜】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "32a825cd-e04d-406c-a10c-cc23a0ae9194",
+            "routine_date": "2024-07-02",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "3cbf9da4-3cd0-463e-9e0e-f77e0755cb8e",
+            "id": 16312825,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-02 12:18:26",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16311721,
+                "routine_task_id": "2fda9e46-756a-4c93-9c6b-1580afd48773",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-02T11:03:05",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "e22c8b99-2f62-4dfa-a4f2-55f7bdb04d7a",
+            "task_name": "【万寿寺】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "2fda9e46-756a-4c93-9c6b-1580afd48773",
+            "routine_date": "2024-07-02",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "f12ab985-626f-4ed6-b88d-ae8a7c84fe7c",
+            "id": 16311721,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-02 11:03:05",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16267409,
+                "routine_task_id": "971f6814-a151-4819-b2a7-e6a716bbfeb6",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-01T11:20:47",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "1c3737b6-3b5a-4df1-9c51-b7144dcf4dbd",
+            "task_name": "【天神町】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "971f6814-a151-4819-b2a7-e6a716bbfeb6",
+            "routine_date": "2024-07-01",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "9babf03f-e5ea-4b4f-a5d7-e31e2b1cc510",
+            "id": 16267409,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-01 11:20:47",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16268857,
+                "routine_task_id": "9c8224d5-b8c3-4fec-b161-ba95cde1292a",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-01T13:50:59",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "8e155120-7e04-4103-a8fa-5068ea38a048",
+            "task_name": "【伏見稲荷】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "9c8224d5-b8c3-4fec-b161-ba95cde1292a",
+            "routine_date": "2024-07-01",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "559376a6-3ffb-4b8e-ad86-5c2b28e15c50",
+            "id": 16268857,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-01 13:50:59",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    },
+    {
+        "logs": [
+            {
+                "id": 16268036,
+                "routine_task_id": "80feb75a-a7d2-4cd0-b148-3fb9573e94cc",
+                "is_checked": 1,
+                "execute_minutes": null,
+                "user_name": "株式会社 エールクリーン",
+                "created_at": 0,
+                "created_date": "2024-07-01T12:41:57",
+                "memo1": null,
+                "memo2": null,
+                "status": 0
+            }
+        ],
+        "report": {
+            "task_id": "a03e2618-d630-436e-b787-8ff04bf864af",
+            "task_name": "【針小路59】①清掃開始",
+            "start_time": "",
+            "routine_task_id": "80feb75a-a7d2-4cd0-b148-3fb9573e94cc",
+            "routine_date": "2024-07-01",
+            "approved_at": 0,
+            "approved_by": null,
+            "daily_report_id": "73328703-796f-42f5-96b3-70ea595bbcf5",
+            "id": 16268036,
+            "is_checked": 1,
+            "execute_minutes": null,
+            "user_name": "株式会社 エールクリーン",
+            "created_at": "2024-07-01 12:41:57",
+            "memo1": null,
+            "memo2": null,
+            "status": 0
+        },
+        "logfiles": [],
+        "comment": []
+    }
+]

@@ -8,7 +8,6 @@ from pydrive2.drive import GoogleDrive
 class DriveManager:
     def __init__(self) -> None:
         self.target_file_id = "1KqSGpCFVRpv-QaYn2uYIG7vU_UUe7MJj"
-        self.working_directry = Path.cwd()
         self.credentials_path = self.get_credential_path()
         self.drive = None
     

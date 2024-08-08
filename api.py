@@ -1,15 +1,17 @@
 import requests
-import json
 from datetime import datetime, timedelta
 import logging
 
 class ApiManager:
-    def __init__(self):
+    def __init__(self, id, passwd):
+        self.id = id
+        self.passwd = passwd
         self.login_url = 'https://api.portal.infomart.co.jp/api/v0.1/auth/signin'
         self.version_url = 'https://portal.infomart.co.jp/source_version'
         self.report_url = 'https://api.v-manage.restartz.co.jp/api/v0.1/routine/daily_reports'
         self.source_version = self.get_source_version()
         self.id_token = None
+        self.report = None
 
         
 
@@ -29,8 +31,8 @@ class ApiManager:
     def login(self):
         url = self.login_url
         payload = {
-            "userid": "hitomi.yell.mana.g@gmail.com",
-            "passwd": "yell0000",
+            "userid": self.id,
+            "passwd": self.passwd,
             "front_version": self.source_version
         }
         headers = {
@@ -86,14 +88,9 @@ class ApiManager:
             response = requests.post(url, headers=headers, json=payload)
             response.raise_for_status()
             info = response.json()
-            self.id_token = info["result"]["AuthenticationResult"]["IdToken"]
-            logging.info(response.text)
+            self.report = info["results"]
         except requests.RequestException as e:
             logging.error('Error: %s', e)
 
-# 使用例
 if __name__ == "__main__":
-    logging.basicConfig(level=logging.INFO)
-    api_manager = ApiManager()
-    api_manager.login()
-    api_manager.get_data()
+    pass

@@ -1,8 +1,11 @@
 import logging
+from spin import spinner
+from spin import SpinText
+import time
 
 from format  import DataFormatter
 from api  import ApiManager
-from drive import DriveManager
+
 
 
 def main():
@@ -14,15 +17,13 @@ def main():
         return
     api.get_data()
     update_data = DataFormatter().data_formatting(api.report)
-    drive = DriveManager()
-    drive.auth()
-    if drive.drive in None:
-        logging.error('Error: Drive is None GoogleDrive Auth Failure')
-        return
-    drive.update_file(update_data)
    
+@spinner(SpinText.scraping)
+def main1():
+    time.sleep(2)
+    return False
+
+
 
 if __name__ == "__main__":
     main()
-
-

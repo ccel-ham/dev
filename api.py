@@ -2,6 +2,9 @@ import requests
 from datetime import datetime, timedelta
 import logging
 
+from spin import spinner_method
+from spin import SpinText
+
 class ApiManager:
     def __init__(self, id, passwd):
         self.id = id
@@ -21,13 +24,14 @@ class ApiManager:
             'Accept-Language': 'ja-JP'
         }
         try:
-            response = requests.get(url, headers=headers, proxies=self.proxies)
+            response = requests.get(url, headers=headers)
             response.raise_for_status()
             return int(response.text)
         except requests.RequestException as e:
             logging.error('Error: %s', e)
             return None
-
+    
+    @spinner_method(SpinText.login)
     def login(self):
         url = self.login_url
         payload = {
@@ -45,8 +49,10 @@ class ApiManager:
             info = response.json()
             self.id_token = info["result"]["AuthenticationResult"]["IdToken"]
             logging.info(response.text)
+            return True
         except requests.RequestException as e:
             logging.error('Error: %s', e)
+            return False
 
     def get_last_day_and_days_of_previous_month(self):
         now = datetime.now()
@@ -65,7 +71,8 @@ class ApiManager:
             'lastDate': last_day_of_previous_month.strftime("%Y-%m-%d"),
             'daysInPreviousMonth': days_in_previous_month
         }
-
+    
+    @spinner_method(SpinText.scraping)
     def get_data(self):
         dates_info = self.get_last_day_and_days_of_previous_month()
         last_date = dates_info['lastDate']
@@ -89,8 +96,10 @@ class ApiManager:
             response.raise_for_status()
             info = response.json()
             self.report = info["results"]
+            return True
         except requests.RequestException as e:
             logging.error('Error: %s', e)
+            return False
 
 if __name__ == "__main__":
     pass

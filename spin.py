@@ -2,6 +2,7 @@ import time
 from random import randint
 from yaspin import yaspin
 from yaspin.spinners import Spinners
+from functools import wraps
 
 
 class Color:
@@ -37,19 +38,57 @@ class Color:
         reset = "\033[0m"
 
 
-class Message:
+class SpinText:
     color = Color.console_color
-    login_success = f"{color.green}> ✔ Login Success {color.reset}"
-    login_failure = f"{color.red}> ✖ Login Failure {color.reset}"
-    scraping_success = f"{color.green}> ✔ Scraping Success {color.reset}"
-    scraping_failure = f"{color.red}> ✖ Scraping Failure {color.reset}"
-    data_post_done = (
-        f"{Color.console_color.green}> ✔ Posting Done {Color.console_color.reset}"
-    )
+    login={"text":"Fportal Login ...",
+           "ok":f"{color.green}> Login Success {color.reset}",
+           "fail":f"{color.red}> Login Failure {color.reset}"}
+    scraping={"text":"Data scraping ...",
+              "ok":f"{color.green}> Scraping Success {color.reset}",
+              "fail":f"{color.red}> Scraping Failure {color.reset}"}
+    post={"text":"Data posting ...",
+        "ok":f"{Color.console_color.green}> Posting Done {Color.console_color.reset}"}
 
 
-def test_yaspin():
+#classMethod
+def spinner_method(spin_text):
+    def decorator(method):
+        @wraps(method)
+        def wrapper(self, *args, **kwargs):
+            with yaspin(text=spin_text["text"],side="right",
+                        timer=True,color=Color.spin_color.yellow) as sp:
+                result = method(self, *args, **kwargs)
+                if result :
+                    sp.text = spin_text["ok"]
+                    sp.ok("✔")
+                else:
+                    sp.fail = spin_text["fail"]
+                    sp.ok("✖")
+            return result
+        return wrapper
+    return decorator
+
+
+def spinner(spin_text):
+    def decorator(method):
+        @wraps(method)
+        def wrapper(*args, **kwargs):
+            with yaspin(text=spin_text["text"],side="right",
+                        timer=True,color=Color.spin_color.yellow) as sp:
+                result = method(*args, **kwargs)
+                if result :
+                    sp.text = spin_text["ok"]
+                    sp.ok("✔")
+                else:
+                    sp.text = spin_text["fail"]
+                    sp.fail("✖")
+            return result
+        return wrapper
+    return decorator
+
+def Sample():
     with yaspin(
+        spinner=Spinners.earth,
         text="Fportal Login ...",
         side="right",
         timer=True,
@@ -58,27 +97,11 @@ def test_yaspin():
         time.sleep(1)
         success = randint(0, 1)
         if success:
-            sp.write(Message.login_success)
+            sp.write(SpinText.login["ok"])
+            sp.ok("✔")
         else:
-            sp.write(Message.login_failure)
+            sp.write(SpinText.login["fail"])
+            sp.fail("✔")
 
-        sp.text = "Data scraping ..."
-        time.sleep(2)
-        success = randint(0, 1)
-        if success:
-            sp.write(Message.scraping_success)
-        else:
-            sp.write(Message.scraping_failure)
-
-        # finalize
-        sp.text = "Data posting ..."
-        sp.spinner = Spinners.bouncingBar
-        time.sleep(10)
-        sp.write(Message.data_post_done)
-
-        sp.text = "> complete it"
-        sp.color = Color.spin_color.yellow
-        sp.ok("✔")
-
-
-test_yaspin()
+if __name__ == "__main__":
+    pass

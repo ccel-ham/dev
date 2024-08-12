@@ -1,6 +1,6 @@
 import os
 import numpy as np
-from PIL import ImageGrab, Image, ImageDraw
+from PIL import ImageGrab, Image
 import moviepy.editor as mp
 import win32api
 import win32con
@@ -10,25 +10,29 @@ import keyboard
 frames = []
 
 # カーソル画像のパス
-cursor_image_path = "cursor.png"  # ここにカーソル画像のパスを指定
+normal_cursor_image_path = "border_normal.png"  # 通常時のカーソル画像のパス
+click_cursor_image_path = "border_click.png"  # クリック時のカーソル画像のパス
 
-# カーソルのサイズとイメージを定義
-cursor_size = 75  # カーソル画像のサイズ
+# カーソルのサイズ（両方のカーソル画像で同じサイズを使用）
+cursor_size = 75
+
+# クリック画像を表示するフレーム数
+CLICK_FRAMES = 3
 
 
-def load_cursor_image():
+def load_cursor_image(image_path):
     """
     カーソル画像をロードし、サイズを調整する関数。
     """
-    if os.path.isfile(cursor_image_path):
-        cursor_img = Image.open(cursor_image_path).convert("RGBA")
+    if os.path.isfile(image_path):
+        cursor_img = Image.open(image_path).convert("RGBA")
         # カーソル画像をリサイズ
         cursor_img = cursor_img.resize(
             (cursor_size, cursor_size), Image.Resampling.LANCZOS
         )
         return cursor_img
     else:
-        print(f"カーソル画像が見つかりません: {cursor_image_path}")
+        print(f"カーソル画像が見つかりません: {image_path}")
         return None
 
 
@@ -40,18 +44,16 @@ def is_left_button_down():
     return win32api.GetKeyState(win32con.VK_LBUTTON) < 0
 
 
-def draw_cursor(image, pos, clicked, cursor_img):
+def draw_cursor(image, pos, normal_cursor_img, click_cursor_img, click_count):
     """
     画面にカーソルを描画する関数。
     pos: カーソルの位置 (x, y)
-    clicked: クリック中かどうか (True/False)
-    cursor_img: カーソル画像
+    normal_cursor_img: 通常時のカーソル画像
+    click_cursor_img: クリック時のカーソル画像
+    click_count: クリック画像を表示するフレーム数カウンタ
     """
+    cursor_img = click_cursor_img if click_count > 0 else normal_cursor_img
     if cursor_img:
-        # カーソル画像を描画
-        if clicked:
-            # カーソル画像を少し変えるか色を変更してクリック状態を表現する
-            cursor_img = cursor_img.point(lambda p: p * 0.7)  # 色を少し暗くする例
         image.paste(
             cursor_img,
             (pos[0] - cursor_size // 2, pos[1] - cursor_size // 2),
@@ -62,17 +64,30 @@ def draw_cursor(image, pos, clicked, cursor_img):
 def capture_screen():
     print("全画面キャプチャを開始します。終了するには 'q' キーを押してください。")
 
-    cursor_img = load_cursor_image()
+    normal_cursor_img = load_cursor_image(normal_cursor_image_path)
+    click_cursor_img = load_cursor_image(click_cursor_image_path)
+    click_count = 0
 
     try:
         while True:
             # 全画面のスクリーンショットをキャプチャ
             screenshot = ImageGrab.grab()
             mouse_x, mouse_y = get_mouse_position()
-            clicked = is_left_button_down()
+
+            if is_left_button_down():
+                click_count = CLICK_FRAMES  # クリックが検出されたらカウンタをリセット
+            else:
+                if click_count > 0:
+                    click_count -= 1  # クリックカウンタを減らす
 
             # カーソルを描画
-            draw_cursor(screenshot, (mouse_x, mouse_y), clicked, cursor_img)
+            draw_cursor(
+                screenshot,
+                (mouse_x, mouse_y),
+                normal_cursor_img,
+                click_cursor_img,
+                click_count,
+            )
 
             frames.append(np.array(screenshot))
 

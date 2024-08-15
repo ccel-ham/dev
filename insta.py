@@ -1,11 +1,12 @@
+import socket
 import subprocess
 import time
-import socket
+
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import WebDriverWait
 
 from GetDrivers import Connect
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 
 PORT = 8080
 
@@ -22,18 +23,23 @@ def is_page_loaded_JS(driver):
         print("wait a second")
         page_state = driver.execute_script('return document.readyState;')
 
-    
-
 def is_page_loaded_EC(driver):
-    wait_seconds = 60
+    TIME_OUT = 60
     try:
-        WebDriverWait(driver, wait_seconds).until(
-            EC.presence_of_element_located((By.TAG_NAME, "Body"))
+        WebDriverWait(driver, TIME_OUT).until(
+            EC.presence_of_all_elements_located
         )
         print("page has fully loaded.")
     except Exception as e:
         print("An error occurred: ", e)
     
+def start_chrome(port=9222):
+    # Chromeを指定ポートで起動
+    command = [
+        "chrome.exe",
+        f"--remote-debugging-port={port}"
+    ]
+    subprocess.Popen(command)
 
 def start_firefox():
     # Firefoxを指定ポートで起動
@@ -58,15 +64,21 @@ def wait_for_firefox(timeout=30, interval=2):
         time.sleep(interval)
     return False
 
-#Port指定でBrowserへ接続
-def connect_to_firefox_debugger():
-    driver = Connect().FireFox()
-    driver.maximize_window()
-    return driver
 
-start_firefox()
-if wait_for_firefox():
-    driver = connect_to_firefox_debugger()
-    driver.get("https://www.instagram.com/")
-    is_page_loaded_JS(driver)
-    driver.minimize_window()
+def firefox_process():
+    start_firefox()
+    if wait_for_firefox():
+        driver = Connect().FireFox()
+        driver.get("https://www.instagram.com/")
+        is_page_loaded_JS(driver)
+        driver.minimize_window()
+
+
+port=9222
+start_chrome(port)
+time.sleep(2)
+driver = Connect.Chrome(port)
+driver.get("https://www.instagram.com/")
+is_page_loaded_EC(driver)
+driver.minimize_window()
+

@@ -1,10 +1,11 @@
 import os
-import numpy as np
-from PIL import ImageGrab, Image
+
+import keyboard
 import moviepy.editor as mp
+import numpy as np
 import win32api
 import win32con
-import keyboard
+from PIL import Image, ImageGrab
 
 # キャプチャしたフレームを保存するリスト
 frames = []

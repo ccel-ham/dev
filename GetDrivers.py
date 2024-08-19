@@ -13,6 +13,13 @@ class Setup:
     def Chrome(self):
         options = webdriver.ChromeOptions()
         service = ChromeService(executable_path=DriverPath.chrome_driver_path)
+        prefs = {
+            "download.default_directory": r"C:\Users\ccelc\Desktop\python_folder\InstaLive",
+            "download.prompt_for_download": False,  # ダウンロード確認ダイアログを表示しない
+            "download.directory_upgrade": True,     # フォルダをアップグレード
+            "safebrowsing.enabled": True            # セーフブラウジングを有効にする
+        }
+        options.add_experimental_option("prefs", prefs)
         driver = webdriver.Chrome(service=service, options=options)
         driver.implicitly_wait(10)
         return driver

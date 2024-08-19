@@ -5,16 +5,14 @@ import random
 import time
 from datetime import datetime
 from urllib.parse import urlparse
-
-import pyautogui as pygui
+from selenium.webdriver.common.by import By
+from selenium.webdriver import ChromeOptions
 from yaspin import yaspin
-
+import pyautogui as pygui
 from GetDrivers import Setup
 
 # https://www.instagram.com/coco3ndazo/
 # https://www.instagram.com/coco3ndazo/live/
-
-
 
 
 class InstaLiveRecorder:
@@ -29,20 +27,48 @@ class InstaLiveRecorder:
         def logger_setup(self):
             logging.basicConfig(
                 level=logging.INFO,
-                format='%(asctime)s - %(levelname)s - %(message)s',
-                filename=rf'{self.working_directry}/insta.log',
-                filemode='a'
+                format="%(asctime)s - %(levelname)s - %(message)s",
+                filename=rf"{self.working_directry}/insta.log",
+                filemode="a",
             )
 
     class BrowserSetup:
         def __init__(self, config) -> None:
             self.logger = config.logger
             self.instagram_home_url = "https://www.instagram.com/"
+            self.working_directry = config.working_directry
             self.target_home_url = config.url
             self.target_live_url = config.live_url
             self.cookie_file_path = rf"{config.working_directry}\cookies.json"
-            self.driver = Setup().Chrome()
+            self.extension_file_path = (
+                rf"{config.working_directry}\InstaLive_Extensions\1.1.2_0.crx"
+            )
+            self.driver = Setup().Chrome(self.setup_options())
+            self.driver.maximize_window()
             self.load_cookies()
+            self.setup_afters()
+
+        def setup_options(self):
+            options = ChromeOptions()
+            options.add_extension(f"{self.extension_file_path}")
+            # options.add_argument(f"load-extension={self.extension_file_path}")
+            prefs = {
+                "download.default_directory": self.working_directry,
+                "download.prompt_for_download": False,  # ダウンロード確認ダイアログを表示しない
+                "download.directory_upgrade": True,  # フォルダをアップグレード
+                "safebrowsing.enabled": True,  # セーフブラウジングを有効にする
+            }
+            options.add_experimental_option("prefs", prefs)
+            return options
+
+        def setup_afters(self):
+            # Extensionのタブを閉じる
+            # self.driver.close()
+            windows = self.driver.window_handles
+            self.driver.switch_to.window(windows[1])
+            time.sleep(0.5)
+            button = self.driver.find_element(By.XPATH, "//button[text()='後で']")
+            button.click()
 
         def load_cookies(self):
             with open(self.cookie_file_path, "r") as file:
@@ -59,16 +85,15 @@ class InstaLiveRecorder:
         def is_page_loaded_JS(self):
             timeout = 5 * 60
             start_time = time.time()
-            print("page loading now")
             page_state = self.driver.execute_script("return document.readyState;")
             while time.time() - start_time < timeout:
                 if page_state == "complete":
                     return True
                 time.sleep(1)
                 page_state = self.driver.execute_script("return document.readyState;")
-            print("time out")
+            self.logger.warning("Page Loading: Time Out")
             return False
-        
+
         def wait_live_start(self, timeout_mimnutes=5):
             timeout = timeout_mimnutes * 60
             start_time = time.time()
@@ -82,10 +107,11 @@ class InstaLiveRecorder:
                     random_wait(min_seconds=5, max_seconds=15)
                 self.logger.warning("Timeout: Live start")
                 return False
-        
+
         # ライブ • Instagram
         def live_check(self):
-            self.open_page(self, self.target_live_url)
+            self.open_page(self.target_live_url)
+            time.sleep(2)
             if self.driver.title == "ライブ • Instagram":
                 return True
             else:
@@ -97,14 +123,13 @@ class InstaLiveRecorder:
                 return True
             else:
                 return False
-    
+
     class RecordOperator:
         def __init__(self, config) -> None:
             self.working_directry = config.working_directry
             self.logger = config.logger
             self.target_home_url = config.url
             self.download_folder_name = self.get_download_folder_name()
-            print(self.download_folder_name)
 
         def find_posision_by_image(self, path, fixed_position):
             self.logger.info(f"Searching for image: {path}")
@@ -114,7 +139,7 @@ class InstaLiveRecorder:
             else:
                 self.logger.warning("Image not found.")
                 return fixed_position
-        
+
         def click_center(self, location):
             center_point = pygui.center(location)
             self.logger.info(f"Clicking at center: {center_point}")
@@ -125,26 +150,24 @@ class InstaLiveRecorder:
             self.logger.info("Starting recording process.")
             # Point(x=953, y=571)
             location = self.find_posision_by_image(
-                rf"{self.working_directry}/png/play.png",
-                fixed_position=(953, 571)
+                rf"{self.working_directry}/png/play.png", fixed_position=(953, 571)
             )
             self.click_center(location)
             # Point(x=1689, y=80)
             location = self.find_posision_by_image(
                 rf"{self.working_directry}/png/extensions.png",
-                fixed_position=(1689, 80)
+                fixed_position=(1689, 80),
             )
             self.click_center(location)
             # Point(x=1457, y=328)
             location = self.find_posision_by_image(
-                rf"{self.working_directry}/png/recorder.png",
-                fixed_position=(1457, 328)
+                rf"{self.working_directry}/png/recorder.png", fixed_position=(1457, 328)
             )
             self.click_center(location)
             # Point(x=1501, y=225)
             location = self.find_posision_by_image(
                 rf"{self.working_directry}/png/rec_start.png",
-                fixed_position=(1501, 225)
+                fixed_position=(1501, 225),
             )
             self.click_center(location)
             self.logger.info("Recording started.")
@@ -155,7 +178,6 @@ class InstaLiveRecorder:
             download_folder_name = f"{username}_live_{current_year}"
             self.logger.info(f"Download folder name set to: {download_folder_name}")
             return download_folder_name
-
 
         def extract_username(self):
             parsed_url = urlparse(self.target_home_url)
@@ -190,6 +212,7 @@ def random_wait(min_seconds=2, max_seconds=5):
     wait_time = random.uniform(min_seconds, max_seconds)
     time.sleep(wait_time)
 
+
 def finish_test(url):
     config = InstaLiveRecorder.BaseConfig(url=url)
     oparator = InstaLiveRecorder.RecordOperator(config)
@@ -197,10 +220,12 @@ def finish_test(url):
 
     return
 
+
 def main(url):
     config = InstaLiveRecorder.BaseConfig(url=url)
     record_browser = InstaLiveRecorder.BrowserSetup(config)
     oparator = InstaLiveRecorder.RecordOperator(config)
+
     if not record_browser.open_page(record_browser.target_home_url):
         config.logger.warning("Login: Failure")
         return
@@ -215,9 +240,11 @@ def main(url):
         return
 
     oparator.record_start()
-    oparator.wait_live_end()
+    oparator.wait_live_end(interval_minutes=0.5)
+    time.sleep(1 * 60)
 
     return
 
-url = "https://www.instagram.com/coco3ndazo/"
-finish_test(url)
+
+url = "https://www.instagram.com/uuu.channel/"
+main(url)

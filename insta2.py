@@ -6,8 +6,8 @@ import time
 from datetime import datetime
 from urllib.parse import urlparse
 
-from yaspin import yaspin
 import pyautogui as pygui
+from yaspin import yaspin
 
 from GetDrivers import Setup
 
@@ -65,7 +65,6 @@ class InstaLiveRecorder:
                 if page_state == "complete":
                     return True
                 time.sleep(1)
-                print("wait a second")
                 page_state = self.driver.execute_script("return document.readyState;")
             print("time out")
             return False
@@ -216,7 +215,7 @@ def main(url):
         return
 
     oparator.record_start()
-    oparator.wait_live_end(interval_minutes=0.25)
+    oparator.wait_live_end()
 
     return
 

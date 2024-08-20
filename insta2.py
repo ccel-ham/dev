@@ -1,3 +1,4 @@
+import argparse
 import json
 import logging
 import os
@@ -5,10 +6,12 @@ import random
 import time
 from datetime import datetime
 from urllib.parse import urlparse
-from selenium.webdriver.common.by import By
-from selenium.webdriver import ChromeOptions
-from yaspin import yaspin
+
 import pyautogui as pygui
+from selenium.webdriver import ChromeOptions
+from selenium.webdriver.common.by import By
+from yaspin import yaspin
+
 from GetDrivers import Setup
 
 # https://www.instagram.com/coco3ndazo/
@@ -61,12 +64,12 @@ class InstaLiveRecorder:
             options.add_experimental_option("prefs", prefs)
             return options
 
-        def setup_afters(self):
-            # Extensionのタブを閉じる
-            # self.driver.close()
+        def after_setup_tasks(self):
+            # Extensionのタブを移動
             windows = self.driver.window_handles
             self.driver.switch_to.window(windows[1])
             time.sleep(0.5)
+            # Instaの画面削除
             button = self.driver.find_element(By.XPATH, "//button[text()='後で']")
             button.click()
 
@@ -213,14 +216,6 @@ def random_wait(min_seconds=2, max_seconds=5):
     time.sleep(wait_time)
 
 
-def finish_test(url):
-    config = InstaLiveRecorder.BaseConfig(url=url)
-    oparator = InstaLiveRecorder.RecordOperator(config)
-    oparator.wait_live_end(interval_minutes=0.25)
-
-    return
-
-
 def main(url):
     config = InstaLiveRecorder.BaseConfig(url=url)
     record_browser = InstaLiveRecorder.BrowserSetup(config)
@@ -241,10 +236,16 @@ def main(url):
 
     oparator.record_start()
     oparator.wait_live_end(interval_minutes=0.5)
+    
     time.sleep(1 * 60)
-
+    print("waiting systemclosed a minute")
     return
 
 
-url = "https://www.instagram.com/uuu.channel/"
-main(url)
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Record Instagram live stream.")
+    parser.add_argument(
+        "--url", type=str, required=True, help="URL of the Instagram profile."
+    )
+    args = parser.parse_args()
+    browser = main(args.url)
